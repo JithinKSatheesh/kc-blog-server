@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "shorts",
+  "info": {
+    "singularName": "short",
+    "pluralName": "shorts",
+    "displayName": "short"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "year": {
+      "type": "string"
+    },
+    "collection": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

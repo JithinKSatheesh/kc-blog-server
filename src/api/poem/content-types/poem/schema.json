@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "poems",
+  "info": {
+    "singularName": "poem",
+    "pluralName": "poems",
+    "displayName": "poem"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "year": {
+      "type": "string"
+    },
+    "tag": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "collection": {
+      "type": "string"
+    }
+  }
+}

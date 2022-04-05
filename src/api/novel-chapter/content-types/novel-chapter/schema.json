@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "novel_chapters",
+  "info": {
+    "singularName": "novel-chapter",
+    "pluralName": "novel-chapters",
+    "displayName": "novel-chapter",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "number": {
+      "type": "string"
+    },
+    "body": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "novels",
+  "info": {
+    "singularName": "novel",
+    "pluralName": "novels",
+    "displayName": "novel",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "collection": {
+      "type": "string"
+    },
+    "year": {
+      "type": "string"
+    },
+    "tag": {
+      "type": "string"
+    },
+    "img": {
+      "type": "string"
+    },
+    "novel_chapters": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::novel-chapter.novel-chapter"
+    }
+  }
+}

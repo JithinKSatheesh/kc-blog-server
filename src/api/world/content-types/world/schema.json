@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "worlds",
+  "info": {
+    "singularName": "world",
+    "pluralName": "worlds",
+    "displayName": "world",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "img": {
+      "type": "string"
+    }
+  }
+}
