@@ -1,4 +1,5 @@
 const path = require('path');
+const config = parse(process.env.DATABASE_URL);
 
 module.exports = ({ env }) => ({
   connection: {
