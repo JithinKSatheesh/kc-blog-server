@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "carousals",
+  "info": {
+    "singularName": "carousal",
+    "pluralName": "carousals",
+    "displayName": "carousal"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image_url": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

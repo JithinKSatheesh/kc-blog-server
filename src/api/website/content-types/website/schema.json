@@ -4,7 +4,8 @@
   "info": {
     "singularName": "website",
     "pluralName": "websites",
-    "displayName": "website"
+    "displayName": "website",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -39,6 +40,12 @@
       "type": "string"
     },
     "link_2": {
+      "type": "string"
+    },
+    "linkedin_link": {
+      "type": "string"
+    },
+    "mail_link": {
       "type": "string"
     }
   }
