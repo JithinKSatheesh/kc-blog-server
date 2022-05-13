@@ -47,6 +47,15 @@
     },
     "mail_link": {
       "type": "string"
+    },
+    "carousal_image_1_link": {
+      "type": "string"
+    },
+    "carousal_image_2_link": {
+      "type": "string"
+    },
+    "carousal_image_3_link": {
+      "type": "string"
     }
   }
 }
